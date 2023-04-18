@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\DashbaordControllerr;
+use App\Http\Controllers\Backend\RoleController;
+use App\Http\Controllers\TestController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,4 +26,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::group(['prefix' => 'admin'], function(){
     Route::get('/', [DashbaordControllerr::class, 'index'])->name('admin.dashboard');
+    Route::resource('roles', RoleController::class);
 });
