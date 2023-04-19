@@ -379,8 +379,14 @@
                                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Role Name" name="name">
                                     </div>
 
+
                                     <div class="form-group">
                                         <label for="name"> Permissions </label>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="checkPermissionAll" value="i">
+                                            <label class="form-check-label" for="checkPermissionAll">All</label>
+                                        </div>
+                                        <hr>
                                       @foreach ($permissions as $permission)
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="checkPermission{{ $permission->id }}" value="{{ $permission->name }}" name="permissions[]">
@@ -616,7 +622,16 @@
     <!-- others plugins -->
     <script src="{{ asset('/') }}assets/js/plugins.js"></script>
     <script src="{{ asset('/') }}assets/js/scripts.js"></script>
+   <script>
+    $("#checkPermissionAll").click(function(){
+            if($(this).is(':checked')){
+                $('input[type=checkbox]').prop('checked', true);
 
+            }else{
+                $('input[type=checkbox]').prop('checked', false);
+            }
+        })
+   </script>
 </body>
 
 </html>
