@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="{{ asset('/') }}assets/css/slicknav.min.css">
 
     <!-- amchart css -->
-    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css"
+        media="all" />
     <!-- others css -->
     <link rel="stylesheet" href="{{ asset('/') }}assets/css/typography.css">
     <link rel="stylesheet" href="{{ asset('/') }}assets/css/default-css.css">
@@ -48,7 +49,8 @@
                     <nav>
                         <ul class="metismenu" id="menu">
                             <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-dashboard"></i><span>dashboard</span></a>
                                 <ul class="collapse">
                                     <li class="active"><a href="index.html">ICO dashboard</a></li>
                                     <li><a href="index2.html">Ecommerce dashboard</a></li>
@@ -56,7 +58,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>Sidebar
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-layout-sidebar-left"></i><span>Sidebar
                                         Types
                                     </span></a>
                                 <ul class="collapse">
@@ -65,7 +68,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>Charts</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-pie-chart"></i><span>Charts</span></a>
                                 <ul class="collapse">
                                     <li><a href="barchart.html">bar chart</a></li>
                                     <li><a href="linechart.html">line Chart</a></li>
@@ -73,7 +77,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>UI Features</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>UI
+                                        Features</span></a>
                                 <ul class="collapse">
                                     <li><a href="accordion.html">Accordion</a></li>
                                     <li><a href="alert.html">Alert</a></li>
@@ -95,7 +100,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>icons</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-slice"></i><span>icons</span></a>
                                 <ul class="collapse">
                                     <li><a href="fontawesome.html">fontawesome icons</a></li>
                                     <li><a href="themify.html">themify icons</a></li>
@@ -111,9 +117,11 @@
                                 </ul>
                             </li>
                             <li><a href="maps.html"><i class="ti-map-alt"></i> <span>maps</span></a></li>
-                            <li><a href="invoice.html"><i class="ti-receipt"></i> <span>Invoice Summary</span></a></li>
+                            <li><a href="invoice.html"><i class="ti-receipt"></i> <span>Invoice Summary</span></a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i> <span>Pages</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i>
+                                    <span>Pages</span></a>
                                 <ul class="collapse">
                                     <li><a href="login.html">Login</a></li>
                                     <li><a href="login2.html">Login 2</a></li>
@@ -129,7 +137,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-exclamation-triangle"></i>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="fa fa-exclamation-triangle"></i>
                                     <span>Error</span></a>
                                 <ul class="collapse">
                                     <li><a href="404.html">Error 404</a></li>
@@ -138,7 +147,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-align-left"></i> <span>Multi
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-align-left"></i>
+                                    <span>Multi
                                         level menu</span></a>
                                 <ul class="collapse">
                                     <li><a href="#">Item level (1)</a></li>
@@ -188,7 +198,8 @@
                                     <span>2</span>
                                 </i>
                                 <div class="dropdown-menu bell-notify-box notify-box">
-                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view
+                                            all</a></span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
@@ -198,7 +209,8 @@
                                             </div>
                                         </a>
                                         <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div>
+                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i>
+                                            </div>
                                             <div class="notify-text">
                                                 <p>New Commetns On Post</p>
                                                 <span>30 Seconds ago</span>
@@ -212,7 +224,8 @@
                                             </div>
                                         </a>
                                         <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div>
+                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i>
+                                            </div>
                                             <div class="notify-text">
                                                 <p>New Commetns On Post</p>
                                                 <span>30 Seconds ago</span>
@@ -245,11 +258,13 @@
                             <li class="dropdown">
                                 <i class="fa fa-envelope-o dropdown-toggle" data-toggle="dropdown"><span>3</span></i>
                                 <div class="dropdown-menu notify-box nt-enveloper-box">
-                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view
+                                            all</a></span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img1.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -259,7 +274,8 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img2.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -269,7 +285,8 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img3.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -279,7 +296,8 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img4.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img4.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -289,7 +307,8 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img2.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -299,7 +318,8 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img1.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -309,7 +329,8 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="{{ asset('/') }}assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="{{ asset('/') }}assets/images/author/author-img3.jpg"
+                                                    alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -342,8 +363,10 @@
                     </div>
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="{{ asset('/') }}assets/images/author/avatar.png" alt="avatar">
-                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Kumkum Rai <i class="fa fa-angle-down"></i></h4>
+                            <img class="avatar user-thumb" src="{{ asset('/') }}assets/images/author/avatar.png"
+                                alt="avatar">
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Kumkum Rai <i
+                                    class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Message</a>
                                 <a class="dropdown-item" href="#">Settings</a>
@@ -362,11 +385,11 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="header-title"> Create Permissions </h4>
-                                @if($errors->any())
+                                @if ($errors->any())
                                     <div class="alert alert-danger">
                                         <ul>
                                             @foreach ($errors->all() as $error)
-                                              <p>{{ $error }}</p>
+                                                <p>{{ $error }}</p>
                                             @endforeach
                                         </ul>
                                     </div>
@@ -376,23 +399,46 @@
                                     @csrf
                                     <div class="form-group">
                                         <label for="exampleInputEmail1"> Role Name </label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Role Name" name="name">
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Role Name"
+                                            name="name">
                                     </div>
 
 
                                     <div class="form-group">
                                         <label for="name"> Permissions </label>
                                         <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="checkPermissionAll" value="i">
+                                            <input type="checkbox" class="form-check-input" id="checkPermissionAll"
+                                                value="i">
                                             <label class="form-check-label" for="checkPermissionAll">All</label>
                                         </div>
                                         <hr>
-                                      @foreach ($permissions as $permission)
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="checkPermission{{ $permission->id }}" value="{{ $permission->name }}" name="permissions[]">
-                                            <label class="form-check-label" for="checkPermission{{ $permission->id }}">{{ $permission->name }}</label>
-                                        </div>
-                                      @endforeach
+
+                                        @foreach ($permission_groups as $gorup)
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="checkPermission"
+                                                                value="{{$gorup->name }}">
+                                                            <label class="form-check-label"
+                                                                for="checkPermission{{ $gorup->name }}">{{$gorup->name }}</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-9">
+
+                                                        @foreach ($permissions as $permission)
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="checkPermission{{ $permission->id }}"
+                                                                value="{{ $permission->name }}" name="permissions[]">
+                                                            <label class="form-check-label"
+                                                                for="checkPermission{{ $permission->id }}">{{ $permission->name }}</label>
+                                                        </div>
+                                                    @endforeach
+                                                    </div>
+                                                </div>
+                                        @endforeach
 
                                     </div>
                                     <button type="submit" class="btn btn-primary mt-4 pr-4 pl-4">Submit</button>
@@ -406,15 +452,15 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- main content area end -->
+    <!-- footer area start-->
+    <footer>
+        <div class="footer-area">
+            <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
         </div>
-        <!-- main content area end -->
-        <!-- footer area start-->
-        <footer>
-            <div class="footer-area">
-                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
-            </div>
-        </footer>
-        <!-- footer area end-->
+    </footer>
+    <!-- footer area end-->
     </div>
     <!-- page container area end -->
     <!-- offset area start -->
@@ -612,8 +658,8 @@
     <!-- start zingchart js -->
     <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <script>
-    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
-    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+        zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+        ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
     </script>
     <!-- all line chart activation -->
     <script src="{{ asset('/') }}assets/js/line-chart.js"></script>
@@ -622,16 +668,16 @@
     <!-- others plugins -->
     <script src="{{ asset('/') }}assets/js/plugins.js"></script>
     <script src="{{ asset('/') }}assets/js/scripts.js"></script>
-   <script>
-    $("#checkPermissionAll").click(function(){
-            if($(this).is(':checked')){
+    <script>
+        $("#checkPermissionAll").click(function() {
+            if ($(this).is(':checked')) {
                 $('input[type=checkbox]').prop('checked', true);
 
-            }else{
+            } else {
                 $('input[type=checkbox]').prop('checked', false);
             }
         })
-   </script>
+    </script>
 </body>
 
 </html>
